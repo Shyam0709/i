@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Internal Calculator Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="number" id="mm1" placeholder="Enter Model 1 Mark" min="0" max="100">
+        <br>
+        <input type="number" id="mm2" placeholder="Enter Model 2 Mark" min="0" max="100">
+        <br>
+        <input type="number" id="mm3" placeholder="Enter Model 3 Mark" min="0" max="100">
+        <br>
+        <input type="number" id="bro" placeholder="Enter Bronze count" min="0" max="50">
+        <br>
+        <input type="number" id="cdu" placeholder="Enter Course Duration (hours)" min="0" max="30">
+        <br>
+        <label for="Checkbox">Check if you have Bonus 1.5</label>
+        <input type="checkbox" id="mc">
+        <br>
+        <button onclick="calci()">Submit</button>
+        <p class="cal"></p>
+        <p class="ans"></p>
+        <footer>
+            <a href="predict.html" class="foot"> ➡️ Semester Mark Calculator</a><br><br><br>
+            <a href="index.html" class="f1"> 🏠 HomePage </a>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
